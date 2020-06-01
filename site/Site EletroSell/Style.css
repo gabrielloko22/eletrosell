@@ -1,0 +1,91 @@
+body {
+    margin: 0;  
+    background-image: url(Imagens/fundo1.jpg);   
+                background-attachment: fixed;
+                background-size: 100%;     
+                background-repeat: no-repeat;
+                background-color: black;              
+}
+
+#menu ul{
+    margin: 0;
+    background-color: #262626;
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 15px 200px;
+    display: inline-block;
+
+    color: white;
+    text-decoration: none;
+}
+
+
+#menu ul li a:hover{
+    color: 	#536DFF;
+}
+
+.pesquisa{
+    width: 400px;
+    height: 40px;
+    margin: 100px auto;
+}
+
+#textopesquisa{
+    width: 350px;
+    height: 40px;
+    float: left;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.btn{
+    width: 30px;
+    height: 30px;
+    background-color: #2f4550;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#texto:focus{
+    border: solid 2px #2f4550;
+}
+
+.container{
+    
+    position: relative;
+}
+
+.elemento{
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    transform: translate(-50% -38%);
+}
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+
